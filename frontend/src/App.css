@@ -1,0 +1,88 @@
+/* src/styles/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("./images/background.png"); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: repeat-y; 
+  height: 100vh; 
+}
+
+/* src/styles/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  color: #ff8800;
+}
+
+p, li {
+  color: #ffffff;
+}
+
+/* src/styles/SearchBox.css */
+.SearchBox {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff8800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* src/styles/UserInfo.css */
+.UserInfo {
+  margin: 20px 0;
+}
+
+img {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+/* src/styles/RepoList.css */
+.RepoList {
+  margin: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h4 {
+  margin-top: 10px;
+  color: #ff8800;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
